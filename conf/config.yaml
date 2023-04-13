@@ -1,5 +1,5 @@
 name: "bluebell"
-mode: "release"
+mode: "debug"
 port: 8084
 version: "v1.0.0"
 start_time: "2022-01-01"
@@ -15,16 +15,17 @@ log:
   max_age: 30
   max_backups: 7
 mysql:
-  host: "127.0.0.1"
+  host: "101.34.184.109"
   port: 3306
   user: "root"
-  password: "123456"
-  dbname: "bluebell"
+  password: "xiaoG11."
+  dbname: "bluebellv2"
   max_open_conns: 200
   max_idle_conns: 50
+
 redis:
-  host: "127.0.0.1"
+  host: "101.34.184.109"
   port: 6379
-  password: "123456"
+  password: "xiaoG11."
   db: 0
   pool_size: 100
